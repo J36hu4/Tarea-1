@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tarea 1 Etiquetas HTML</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="autor" content="Jeshua Herrera Salas">
+  <meta name="descripcion" content="Tarea 1 Etiquetas HTML">
+</head>
+<body >
+  <h1>Tarea Etiquetas</h1>
+  <hr>
+  <h3>Etiquetas de estructura de sección</h3>
+
+  <h1>Encabezado 1</h1>
+  <h2>Encabezado 2</h2>
+  <h3>Encabezado 3</h3>
+  <h4>Encabezado 4</h4>
+  <h5>Encabezado 5</h5>
+  <h6>Encabezado 6</h6>
+  <br>
+
+  <hgroup>
+    <h1>Hgroup encabezado 1</h1>
+    <h2>Hgroup encabezado 2</h2>
+    <h2>Hgroup encabezado 2</h2>
+    <h4>Hgroup encabezado 4</h4>
+  </hgroup>
+  <br>
+
+  <address>
+    <p>Jeshua Herrera Salas</p>
+    <p>Naranjo</p>
+    <p>64431669</p>
+    <p>Jeherrerasa@gmail.com</p>
+  </address><br>
+
+  <div>
+    <p>Contenedor div</p>
+  </div>
+
+  <iframe src="https://www.w3schools.com" width="500" height="500"></iframe><br>
+
+  <hr>
+  <h2>Etiquetas de estructura de grupo</h2>
+
+  <ul>
+    <li>ul 1</li>
+    <li>ul 2</li>
+    <li>ul 3</li>
+  </ul>
+
+  <ol>
+    <li>ol 1</li>
+    <li>ol 2</li>
+    <li>ol 3</li>
+  </ol>
+
+  <dl>
+    <dt>dl 1</dt>
+    <dd>definicion 1</dd>
+    <dt>dl 2</dt>
+    <dd>definicion 2</dd>
+  </dl>
+  <br>
+
+  <figure>
+    <img src = "multimedia/frase.jpeg" alt="Frase"  width="100" height="100">
+    <figcaption>Una frase</figcaption>
+  </figure>
+  <br>
+
+  <details>
+    <summary>Detalle expandible</summary>
+    <p>Aqui va mas informacion util</p>
+  </details>
+  <br>
+
+  <dialog>
+    <p>Un dialogo</p>
+  </dialog>
+
+  <hr>
+  <h2>Etiquetas de texto</h2>
+
+  <p>un parrafo</p>
+
+  <pre>
+un parrafo el cual mantiene todos los espacios
+y saltos de linea
+  </pre>
+
+  <blockquote>
+    <p>un bloque, el cual tiene sangria</p>
+  </blockquote>
+
+  <q>
+    <p>Texto citado entre comillas</p>
+  </q>
+
+  <cite>
+    <p>texto citado de un libro, articulo, pagina web o otra fuente</p>
+  </cite>
+
+  <abbr>
+    <p>abreviacion o acronimo</p>
+  </abbr>
+
+  <dfn>
+    <p>definicion de un termino</p>
+  </dfn>
+
+  <code>
+    <p>Aqui podria ir un codigo.</p>
+  </code>
+
+  <kbd>
+    <p>Comandos o conbinaciones de teclas</p>
+  </kbd>
+
+  <b>
+    <p>texto en negrita</p>
+  </b>
+
+  <strong>
+    <p>texto aun mas negrita</p>
+  </strong>
+
+  <i>
+    <p>texto en cursiva</p>
+  </i>
+
+  <em>
+    <p>texto enfatico</p>
+  </em>
+
+  <mark>
+    <p>texto marcadio</p>
+  </mark>
+
+  <small>
+    <p>texto pequeño</p>
+  </small>
+
+  <del>
+    <p>texto tachado</p>
+  </del>
+
+  <ins>
+    <p>texto subrrayado</p>
+  </ins>
+
+  <sub>
+    <p>texto indice</p>
+  </sub>
+
+  <sup>
+    <p>texto superindice</p>
+  </sup>
+
+  <time>
+    <p>tiempo?</p>
+  </time>
+
+  <data>
+    <p>Texto que se puede leer tanto por maquinas como por humanos</p>
+  </data>
+
+  <span>
+    <p>texto de span</p>
+  </span>
+
+  <hr>
+  <h2>Etiquetas de enlace</h2>
+
+  <a href="https://www.w3schools.com">
+    <p>un super vinculo</p>
+  </a>
+
+  <area shape="rect" coords="0,0,100,100" href="https://www.w3schools.com">
+    <p>vinculo en area</p>
+  </area>
+
+  <map name="map">
+    <area shape="rect" coords="0,0,100,100" href="https://www.w3schools.com">
+      <p>vinculo en map</p>
+    </area>
+  </map>
+
+  <hr>
+  <h2>Etiquetas de imagen</h2>
+
+  <img src="multimedia/frase.jpeg" alt="img"  width="200" height="200">
+
+  <picture>
+    <source srcset="multimedia/frase.jpeg" media="(min-width: 100px)">
+    <img src="multimedia/frase.jpeg" alt="picture"  width="100" height="100">
+  </picture>
+
+  <canvas width="100" height="10">
+    <p>Un lienzo</p>
+  </canvas>
+
+  <svg width="10" height="10">
+    <p>grafico vectorial</p>
+  </svg>
+
+  <hr>
+  <h2>Etiquetas de multimedia</h2>
+
+  <div>
+  <audio controls>
+    <source src="multimedia/Recording.mp3" type="audio/mpeg">
+    <p>un audio</p>
+  </audio>
+</div>
+<br>
+
+  <video controls  width="300" height="400">
+    <source src="multimedia/video.mp4" type="video/mp4">
+    <p>un video</p>
+  </video>
+
+  <track kind="captions" src="captions.vtt" srclang="en">
+    <p>un track</p>
+  </track>
+
+  <iframe src="https://youtu.be/wIC18c1Qkcg?si=Yyxnwx2aXBCgyrMV" width="500" height="500"></iframe>
+
+  <h2>Yo</h2>
+  <p>Jeshua Herrera SalAS</p>
+  <img src="multimedia/me.jpeg" alt="YO" width="100" height="100">
+</body>
+</html>
