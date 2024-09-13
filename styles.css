@@ -66,6 +66,18 @@ div .cont{
     margin-right: auto;
     text-align: center;
 }
+#frame {
+    width: 90%;
+    height: 400px;
+    background-color: rgb(218, 218, 218);
+    border-radius: 15px;
+    padding: 5px;
+    display: block;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 
 img{
     display: block;
