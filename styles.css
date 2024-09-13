@@ -1,0 +1,76 @@
+body {
+	background:repeat-x top center #272727;
+	font-family:"Trebuchet MS" Arial, Helvetica, sans-serif;
+	font-size:62.5%; /* Sets default font size to 10px */
+	color:#222222;
+	}
+
+#t {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+p {
+text-align: center;
+}
+
+.c {
+    text-align: center;
+}
+
+
+.title {
+    background-color: gray;
+    border-radius: 15px;
+    text-align: center;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 20px;
+}
+
+div {
+    max-width: 600px;
+    width: 80%;
+    height: auto;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    padding: 5px;
+    display: block;
+    gap: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div div{
+    width: 90%;
+    height: auto;
+    background-color: rgb(218, 218, 218);
+    border-radius: 15px;
+    padding: 5px;
+    display: block;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div .cont{
+    width: 90%;
+    height: auto;
+    background-color: rgb(218, 218, 218);
+    border-radius: 15px;
+    padding: 5px;
+    display: block;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+img{
+    display: block;
+    height: 200px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}

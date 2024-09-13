@@ -1,235 +1,295 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Tarea 1 Etiquetas HTML</title>
+  <title>Etiquetas HTML</title>
   <link rel="stylesheet" href="styles.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="autor" content="Jeshua Herrera Salas">
-  <meta name="descripcion" content="Tarea 1 Etiquetas HTML">
+  <meta name="descripcion" content="Etiquetas HTML">
 </head>
-<body >
-  <h1>Tarea Etiquetas</h1>
-  <hr>
-  <h3>Etiquetas de estructura de sección</h3>
 
-  <h1>Encabezado 1</h1>
-  <h2>Encabezado 2</h2>
-  <h3>Encabezado 3</h3>
-  <h4>Encabezado 4</h4>
-  <h5>Encabezado 5</h5>
-  <h6>Encabezado 6</h6>
-  <br>
-
-  <hgroup>
-    <h1>Hgroup encabezado 1</h1>
-    <h2>Hgroup encabezado 2</h2>
-    <h2>Hgroup encabezado 2</h2>
-    <h4>Hgroup encabezado 4</h4>
-  </hgroup>
-  <br>
-
-  <address>
-    <p>Jeshua Herrera Salas</p>
-    <p>Naranjo</p>
-    <p>64431669</p>
-    <p>Jeherrerasa@gmail.com</p>
-  </address><br>
+<body>
+  <h1 id="t">Tarea Etiquetas</h1>
 
   <div>
-    <p>Contenedor div</p>
+    <details>
+      <summary class="title">Etiquetas de estructura de sección</summary>
+      <br>
+      <div>
+        <h1 class="c">Encabezado 1</h1>
+        <h2 class="c">Encabezado 2</h2>
+        <h3 class="c">Encabezado 3</h3>
+        <h4 class="c">Encabezado 4</h4>
+        <h5 class="c">Encabezado 5</h5>
+        <h6 class="c">Encabezado 6</h6>
+      </div>
+      <br>
+      <hgroup class="cont">
+        <h1 class="c">Hgroup encabezado 1</h1>
+        <h2 class="c">Hgroup encabezado 2</h2>
+        <h3 class="c">Hgroup encabezado 3</h3>
+      </hgroup>
+      <br>
+
+      <address class="cont">
+        <p>Jeshua Herrera Salas</p>
+        <p>Naranjo</p>
+        <p>64431669</p>
+        <p>Jeherrerasa@gmail.com</p>
+      </address><br>
+
+      <div>
+        <h2 class="c">Iframe</h2>
+        <iframe src="https://www.w3schools.com" class="cont"></iframe>
+      </div>
+      <br>
+    </details>
   </div>
 
-  <iframe src="https://www.w3schools.com" width="500" height="500"></iframe><br>
-
-  <hr>
-  <h2>Etiquetas de estructura de grupo</h2>
-
-  <ul>
-    <li>ul 1</li>
-    <li>ul 2</li>
-    <li>ul 3</li>
-  </ul>
-
-  <ol>
-    <li>ol 1</li>
-    <li>ol 2</li>
-    <li>ol 3</li>
-  </ol>
-
-  <dl>
-    <dt>dl 1</dt>
-    <dd>definicion 1</dd>
-    <dt>dl 2</dt>
-    <dd>definicion 2</dd>
-  </dl>
   <br>
-
-  <figure>
-    <img src = "multimedia/frase.jpeg" alt="Frase"  width="100" height="100">
-    <figcaption>Una frase</figcaption>
-  </figure>
-  <br>
-
-  <details>
-    <summary>Detalle expandible</summary>
-    <p>Aqui va mas informacion util</p>
-  </details>
-  <br>
-
-  <dialog>
-    <p>Un dialogo</p>
-  </dialog>
-
-  <hr>
-  <h2>Etiquetas de texto</h2>
-
-  <p>un parrafo</p>
-
-  <pre>
-un parrafo el cual mantiene todos los espacios
-y saltos de linea
-  </pre>
-
-  <blockquote>
-    <p>un bloque, el cual tiene sangria</p>
-  </blockquote>
-
-  <q>
-    <p>Texto citado entre comillas</p>
-  </q>
-
-  <cite>
-    <p>texto citado de un libro, articulo, pagina web o otra fuente</p>
-  </cite>
-
-  <abbr>
-    <p>abreviacion o acronimo</p>
-  </abbr>
-
-  <dfn>
-    <p>definicion de un termino</p>
-  </dfn>
-
-  <code>
-    <p>Aqui podria ir un codigo.</p>
-  </code>
-
-  <kbd>
-    <p>Comandos o conbinaciones de teclas</p>
-  </kbd>
-
-  <b>
-    <p>texto en negrita</p>
-  </b>
-
-  <strong>
-    <p>texto aun mas negrita</p>
-  </strong>
-
-  <i>
-    <p>texto en cursiva</p>
-  </i>
-
-  <em>
-    <p>texto enfatico</p>
-  </em>
-
-  <mark>
-    <p>texto marcadio</p>
-  </mark>
-
-  <small>
-    <p>texto pequeño</p>
-  </small>
-
-  <del>
-    <p>texto tachado</p>
-  </del>
-
-  <ins>
-    <p>texto subrrayado</p>
-  </ins>
-
-  <sub>
-    <p>texto indice</p>
-  </sub>
-
-  <sup>
-    <p>texto superindice</p>
-  </sup>
-
-  <time>
-    <p>tiempo?</p>
-  </time>
-
-  <data>
-    <p>Texto que se puede leer tanto por maquinas como por humanos</p>
-  </data>
-
-  <span>
-    <p>texto de span</p>
-  </span>
-
-  <hr>
-  <h2>Etiquetas de enlace</h2>
-
-  <a href="https://www.w3schools.com">
-    <p>un super vinculo</p>
-  </a>
-
-  <area shape="rect" coords="0,0,100,100" href="https://www.w3schools.com">
-    <p>vinculo en area</p>
-  </area>
-
-  <map name="map">
-    <area shape="rect" coords="0,0,100,100" href="https://www.w3schools.com">
-      <p>vinculo en map</p>
-    </area>
-  </map>
-
-  <hr>
-  <h2>Etiquetas de imagen</h2>
-
-  <img src="multimedia/frase.jpeg" alt="img"  width="200" height="200">
-
-  <picture>
-    <source srcset="multimedia/frase.jpeg" media="(min-width: 100px)">
-    <img src="multimedia/frase.jpeg" alt="picture"  width="100" height="100">
-  </picture>
-
-  <canvas width="100" height="10">
-    <p>Un lienzo</p>
-  </canvas>
-
-  <svg width="10" height="10">
-    <p>grafico vectorial</p>
-  </svg>
-
-  <hr>
-  <h2>Etiquetas de multimedia</h2>
 
   <div>
-  <audio controls>
-    <source src="multimedia/Recording.mp3" type="audio/mpeg">
-    <p>un audio</p>
-  </audio>
-</div>
-<br>
+    <details>
+      <summary class="title">Etiquetas de estructura de grupo</summary>
+      <br>
+      <section class="cont">
+        <ul class="c">
+          <li>ul 1</li>
+          <li>ul 2</li>
+          <li>ul 3</li>
+        </ul>
+      </section>
+      <br>
+      <section class="cont">
+        <ol class="c">
+          <li>ol 1</li>
+          <li>ol 2</li>
+          <li>ol 3</li>
+        </ol>
+      </section>
+      <br>
+      <section class="cont">
+        <dl class="c">
+          <dt>dl 1</dt>
+          <dd>definicion 1</dd>
+          <dt>dl 2</dt>
+          <dd>definicion 2</dd>
+        </dl>
+      </section>
+      <br>
 
-  <video controls  width="300" height="400">
-    <source src="multimedia/video.mp4" type="video/mp4">
-    <p>un video</p>
-  </video>
+      <figure class="cont">
+        <img src="multimedia/frase.jpeg" alt="Frase">
+        <figcaption class="c">Una frase</figcaption>
+      </figure>
+      <br>
 
-  <track kind="captions" src="captions.vtt" srclang="en">
-    <p>un track</p>
-  </track>
+      <details class="cont">
+        <summary class="c">Detalle expandible</summary>
+        <p>Aqui va mas informacion util</p>
+      </details>
+      <br>
 
-  <iframe src="https://youtu.be/wIC18c1Qkcg?si=Yyxnwx2aXBCgyrMV" width="500" height="500"></iframe>
+      <dialog>
+        <p>Un dialogo</p>
+      </dialog>
+    </details>
+  </div>
 
-  <h2>Yo</h2>
-  <p>Jeshua Herrera SalAS</p>
-  <img src="multimedia/me.jpeg" alt="YO" width="100" height="100">
+  <br>
+
+  <div>
+    <details>
+      <summary class="title">Etiquetas de texto</summary>
+
+      <p class="cont">un parrafo</p>
+
+      <pre class="cont">
+un parrafo el cual mantiene todos los espacios
+y saltos de linea</pre>
+
+      <blockquote class="cont">
+        <p>un bloque, el cual tiene sangria</p>
+      </blockquote>
+
+      <q class="cont">
+        <p>Texto citado entre comillas</p>
+      </q>
+      <br>
+      <cite class="cont">
+        <p>texto citado de un libro, articulo, pagina web o otra fuente</p>
+      </cite>
+      <br>
+      <abbr class="cont">
+        <p>abreviacion o acronimo</p>
+      </abbr>
+      <br>
+      <dfn class="cont">
+        <p>definicion de un termino</p>
+      </dfn>
+      <br>
+      <code class="cont">
+    <p>Aqui podria ir un codigo.</p>
+  </code>
+      <br>
+      <kbd class="cont">
+        <p>Comandos o conbinaciones de teclas</p>
+      </kbd>
+      <br>
+      <b class="cont">
+        <p>texto en negrita</p>
+      </b>
+      <br>
+      <strong class="cont">
+        <p>texto aun mas negrita</p>
+      </strong>
+      <br>
+      <i class="cont">
+        <p>texto en cursiva</p>
+      </i>
+      <br>
+      <em class="cont">
+        <p>texto enfatico</p>
+      </em>
+      <br>
+      <mark class="cont">
+        <p>texto marcadio</p>
+      </mark>
+      <br>
+      <small class="cont">
+        <p>texto pequeño</p>
+      </small>
+      <br>
+      <del class="cont">
+        <p>texto tachado</p>
+      </del>
+      <br>
+      <ins class="cont">
+        <p>texto subrrayado</p>
+      </ins>
+      <br>
+      <sub class="cont">
+        <p>texto indice</p>
+      </sub>
+      <br>
+      <sup class="cont">
+        <p>texto superindice</p>
+      </sup>
+      <br>
+      <time class="cont">
+        <p>tiempo?</p>
+      </time>
+      <br>
+      <data class="cont">
+        <p>Texto que se puede leer tanto por maquinas como por humanos</p>
+      </data>
+      <br>
+      <span class="cont">
+        <p>texto de span</p>
+      </span>
+      <br>
+    </details>
+  </div>
+
+  <br>
+
+  <div>
+    <details>
+      <summary class="title">Etiquetas de enlace</summary>
+      <br>
+      <a href="https://www.w3schools.com" class="cont">
+        un super vinculo
+      </a>
+      <br>
+      <section class="cont">
+        <area shape="rect" coords="0,0,100,100" href="https://www.w3schools.com">
+        vinculo en area
+        </area>
+      </section>
+      <br>
+      <map name="map" class="cont">
+        <area shape="rect" coords="0,0,100,100" href="https://www.w3schools.com">
+        vinculo en map
+        </area>
+      </map>
+      <br>
+    </details>
+  </div>
+
+  <br>
+
+  <div>
+    <details>
+      <summary class="title">Etiquetas de imagen</summary>
+      <br>
+      <section class="cont">
+        <img src="multimedia/frase.jpeg" alt="img">
+      </section>
+
+      <br>
+
+      <picture class="cont">
+        <source srcset="multimedia/frase.jpeg">
+        <img src="multimedia/frase.jpeg" alt="picture">
+      </picture>
+      <br>
+      <canvas width="100" height="10" class="cont">
+        <p>Un lienzo</p>
+      </canvas>
+
+      <svg width="10" height="10">
+        <p class="cont">grafico vectorial</p>
+      </svg>
+    </details>
+  </div>
+
+  <br>
+
+  <div>
+    <details>
+      <summary class="title">Etiquetas de multimedia</summary>
+      <br>
+      <section class="cont">
+        <audio controls width="90%">
+          <source src="multimedia/Recording.mp3" type="audio/mp3">
+          <p>un audio</p>
+        </audio>
+      </section>
+      <br>
+
+      <section class="cont">
+        <video controls width="90%" height="300">
+          <source src="multimedia/video.mp4" type="video/mp4">
+          <p>un video</p>
+        </video>
+      </section>
+      <br>
+      <section class="cont">
+        <track kind="captions" src="captions.vtt" srclang="en">
+        <p>un track</p>
+        </track>
+      </section>
+      <br>
+      <iframe src="https://youtu.be/wIC18c1Qkcg?si=Yyxnwx2aXBCgyrMV" class="cont"></iframe>
+      <br>
+    </details>
+  </div>
+
+  <br>
+
+  <div>
+    <details>
+      <summary class="title">autor</summary>
+      <br>
+      <p class="cont">Jeshua Herrera Salas</p>
+      <section class="cont">
+        <img src="multimedia/me.jpeg" alt="YO" width="100" height="100">
+      </section>
+      <br>
+    </details>
+  </div>
 </body>
+
 </html>
